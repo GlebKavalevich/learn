@@ -1,0 +1,7 @@
+function invert(array) {
+  let inv = []
+  for (let a = 0; a<array.length; a++){
+    inv.push(array[a]*-1)
+  }
+   return inv
+}
